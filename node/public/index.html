@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Risk Example</title>
+
+  <script>
+    !function(){
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://risk.clearbit.com/v1/risk.js';
+      var parent = document.getElementsByTagName('script')[0];
+      parent.parentNode.insertBefore(script, parent);
+    }();
+  </script>
+
+  <style type="text/css">
+    label {
+      display: block;
+    }
+
+    .row {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Risk API Demo</h1>
+
+  <form method="post" autocomplete="false">
+    <div class="row">
+      <div class="input-field col s6">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" class="validate">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s6">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" class="validate">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s6">
+        <label for="password">Password</label>
+        <input id="password" type="password" class="validate">
+      </div>
+    </div>
+
+    <div class="row">
+      <button type="submit" name="action">Submit</button>
+    </div>
+  </form>
+</body>

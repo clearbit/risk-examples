@@ -1,0 +1,17 @@
+{
+  "name": "clearbit-risk-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maccman",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "clearbit": "^1.2.3",
+    "express": "^4.15.3",
+    "request-ip": "^2.0.2"
+  }
+}
