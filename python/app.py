@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, send_from_directory
-
 import clearbit
+
 app = Flask(__name__, static_url_path='')
 
 test_remote_ip = '24.136.96.110'
