@@ -7,7 +7,7 @@ Provided in this repo are three examples of how to use [Clearbit's Risk API](htt
 1. Create a free [Clearbit account](https://clearbit.com/signup)
 2. Set the `CLEARBIT_KEY` env var locally to your [API key](https://clearbit.com/key)
 
-### Node.js specifict setup
+### Node.js specific setup
 
 You'll need to run `npm install` inside the Node dir.
 
